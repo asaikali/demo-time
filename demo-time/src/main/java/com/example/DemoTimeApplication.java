@@ -14,7 +14,7 @@ public class DemoTimeApplication {
 	@RequestMapping("/")
 	public String home()
 	{
-		return "Version 10: " + new Date();
+		return "Version 11: " + new Date();
 	}
 	
     public static void main(String[] args) {
