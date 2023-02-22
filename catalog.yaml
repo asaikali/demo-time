@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+ name: atm-locator
+ description: ATM locator search application
+ tags:
+   - tanzu
+ annotations:
+   'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=atm-locator'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
+  system: atm-locator
